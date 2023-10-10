@@ -15,3 +15,9 @@ silverPlan = () => {
   
   silverModal.style.display = "block";
 }
+
+closeSilver = () => {
+  let silverModal = document.querySelector(".silverModal");
+  
+  silverModal.style.display = "none";
+}
