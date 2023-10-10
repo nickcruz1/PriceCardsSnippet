@@ -27,3 +27,14 @@ goldPlan = () => {
   
   goldModal.style.display = "block";
 }
+
+closeGold = () => {
+  let goldModal = document.querySelector(".goldModal");
+  
+goldModal.style.display = "none";
+}
+
+
+// Event Listener for Gold Modal 
+let goldModal = document.querySelector(".goldModal");
+goldModal.addEventListener('click', closeGold);
