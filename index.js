@@ -21,3 +21,9 @@ closeSilver = () => {
   
   silverModal.style.display = "none";
 }
+
+goldPlan = () => {
+  let goldModal = document.querySelector(".goldModal");
+  
+  goldModal.style.display = "block";
+}
