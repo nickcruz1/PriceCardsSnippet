@@ -9,3 +9,9 @@ closeBronze = () => {
   
   bronzeModal.style.display = "none";
 }
+
+silverPlan = () => {
+ let silverModal = document.querySelector(".silverModal");
+  
+  silverModal.style.display = "block";
+}
